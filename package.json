@@ -1,0 +1,22 @@
+{
+  "name": "dox-dev-tools",
+  "version": "0.0.1",
+  "description": "Scripts Development Tools",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "korutx",
+  "license": "ISC",
+  "bin": {
+    "korutx": "./bin/index.js"
+  },
+  "dependencies": {
+    "boxen": "^4.1.0",
+    "chalk": "^2.4.2",
+    "node-fetch": "^2.6.0",
+    "shelljs": "^0.8.3",
+    "unzip": "^0.1.11",
+    "yargs": "^14.2.0"
+  }
+}
