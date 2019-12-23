@@ -3,6 +3,7 @@
 require('yargs')
   .commandDir('../lib/cmds')
   .demandCommand()
+  //.completion('completion', require('../lib/completion'))
   .help()
   .argv
 
