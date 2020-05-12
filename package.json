@@ -1,6 +1,6 @@
 {
   "name": "korutx-tools",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Scripts Development Tools",
   "main": "bin/index.js",
   "scripts": {
