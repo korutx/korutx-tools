@@ -1,0 +1,8 @@
+174c174
+<     const serverConfig = createDevServerConfig(
+---
+>     const serverConfig = paths.configureDevServer(createDevServerConfig(
+177c177
+<     );
+---
+>     ), process.env.NODE_ENV);

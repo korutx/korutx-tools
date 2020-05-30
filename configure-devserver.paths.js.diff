@@ -1,0 +1,10 @@
+21c21,22
+< 
+---
+> const configureDevServer = 
+>   typeof config.configureDevServer === 'function' ? config.configureDevServer : id;
+84c85,86
+<   configureWebpack
+---
+>   configureWebpack,
+>   configureDevServer
